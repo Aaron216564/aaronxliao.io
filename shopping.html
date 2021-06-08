@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>CSS Framework Assignment</title>
+<style>
+    .box{
+        width: 298px;
+        border: 1px solid #3A6587;
+    }
+    h2{
+        font-size: 16px;
+        background-color: #3A6587;
+        height: 60px;
+        line-height: 35px;
+        color: #FFF;
+    }
+    div:nth-of-type(1){
+        border: 3px solid black;
+    }
+    div:nth-of-type(2){
+        border: 1px solid black;
+    }
+    div:nth-of-type(3){
+        border: 2px solid black;
+    }
+</style>
+<link rel="stylesheet" href="styleshopping.css">
+<link rel="stylesheet" href="stylemedia.css">
+</head>
+<body>
+    <h1>amazon</h1>
+    <div class="b_btm_bg b_btm_c">
+        <ul class="b_btm">
+            <li>
+                <a><img src="forests-in-germany.jpg" width="62" height="62"/></a>
+                <div><h2>Goods Test</h2>it's qualified goods, you can buy it.</div>
+            </li>
+            <li>
+                <a img src="forests-in-germany.jpg" width="62" height="62"></a>
+                <div><h2>Free shipping for over 38</h2>when purchase over 38, no shipping fee</div>
+            </li>
+            <li>
+                <a img src="forests-in-germany.jpg" width="62" height="62"></a>
+                <div><h2>arrive customer's home on time</h2>arrive customer's home on time</div>
+            </li>
+        </ul>
+    </div>
+    <dl>
+        <dt><a href="diagrams for shopping.pdf">Guide to operate amazon</a></dt>
+        <dd><a href="amazon statement.pdf">Shopping process</a></dd>
+        <dd><a href="amazon statement.pdf">After-sale process</a></dd>
+        <dd><a href="June.pdf">Order method</a></dd>
+        <dd><a href="rule.pdf">Privacy statement</a></dd>
+        <dd><a href="rin.pdf">Recommended sharing instructions</a></dd>
+    </dl>
+    <dl>
+        <dt><a href="#">Pay and Transfer</a></dt>
+        <dd><a href="#">Goods to payment area</a></dd>
+        <dd><a href="#">Payment Consultation</a></dd>
+        <dd><a href="#">Payment Method</dd>
+    </dl>
+    <dl>
+        <dt><a href="#">member center</dt>
+        <dd><a href="#">my order</a></dd>
+        <dd><a href="#">my collection</a></dd>
+        <dd><a href="#">money management</a></dd>
+    </dl>
+    <form method="post" action="">
+        <p>name:<input name="name" type="text" required/></p>
+        <p>password:<input name="pass" type="password" required></p>
+        <p>
+            <input type="submit" name="Button" value="submit"/>
+            <input type="reset" name="Reset" value="resubmit"/>
+        </p>
+    </form>
+    <from method="post" action="">
+        sex:
+        <input name="gen" type="radio" value="male"/>male
+        <input name="gen" type="radio" value="female"/>female
+    </from>
+    <form method="post" action="">
+        enter your date of birth:
+        <select name="bmom">
+            <option value="">[choose month]</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>month
+        <input type="text" name="bday" value="dd" size="2" maxlength="2" required/>day
+        <input type="text" name="byear" value="yyyy" size="4" maxlength="4" required/>year
+   </form>
+   <from method="post" action="">
+        choose your payment method:
+        <input name="pay" type="radio" value="bank"/><p>credit card(enter your card number):<input name="number" type="text"/></p>
+        <input name="pay" type="radio" value="mobile"/>paypal
+    </from>
+    <form action="#" method="post">
+        <p>
+            please enter the goods you want to search:
+            <input type="search" name="why"/>
+            <input type="submit" value="Go"/>
+        </p>
+    </form>
+    <nav>
+        <ul class="menu_r"> 
+            <li class="active"><a href="">homepage</a></li>
+            <li class="active"><a href="">individual supermarket</a></li>
+            <li><a href="">collective supermarket</a></li>
+            <li><a href="">clothing</a></li>
+            <li><a href="">makeups</a></li>
+            <li><a href="">group buy</a></li>
+        </ul>
+    </nav>
+    <div class="box">
+        <h2>all goods type</h2>
+        <div>
+            <strong class="name">import food</strong>
+        </div>
+        <div>
+            <strong class="name">soft drink and wine</strong>
+        </div>
+        <div>
+            <strong class="name">toy and kids clothing</strong>
+        </div>
+    </div>
+    <div id="cosmetics">
+        <p class="title">new makeups</p>
+        <ul>
+            <li><a href="#"><span>1</span>ZA the hottest makeups in the market
+            <div><img src="makeup-cosmetics.jpg" width="150" height="120"  alt="Za">
+              <p>$62.00 69200people bought it recently</p>
+            </div>
+            </a></li>
+        </ul>
+    </div>
+    <div id="jiji">
+        <p class="title">clothes</p>
+        <ul>
+            <li><a href="#"><span>1</span>H&M and Uniquo
+            <div><img src="download.jpg" width="150" height="120"  alt="Uniquo">
+              <p>$24.00  100000people bought it recently</p>
+            </div>
+            </a></li>
+        </ul>
+    </div>
+</body>
