@@ -1,0 +1,21 @@
+body>table{
+    background-color: aqua;
+    text-align: center;
+}
+ul.cate_list li {
+    width: 232px;
+    height: 316px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 0 5px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul.cate_list li:hover{
+    background-color: #FFF;
+    -webkit-box-shadow: 0 0 5px #E0E0E0;
+    -moz-box-shadow: 0 0 5px #E0E0E0;
+    box-shadow: 0 0 5px #E0E0E0;
+}
